@@ -1,0 +1,199 @@
+.feature-icon {
+  width: 4rem;
+  height: 4rem;
+  border-radius: .75rem;
+}
+
+.league-script-regular {
+  font-family: "League Script", cursive;
+  font-weight: 500 !important;
+  font-style: normal;
+  font-size: 100px;
+}
+
+#league-script-regular {
+  font-family: "League Script", cursive;
+  font-weight: 700;
+  font-style: normal;
+  font-size: xx-large;
+}
+
+#topic {
+  
+}
+
+.img-fluid {
+  border-radius: 2px;
+  border-width: 12px !important;
+  border-color: #8A9AD5;
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: .75rem;
+}
+  
+.text-shadow-1 { 
+  text-shadow: 0 .125rem .25rem rgba(0, 0, 0, 10); 
+}
+
+.card-cover {
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: none;
+}
+  
+.feature-icon-small {
+  width: 3rem;
+  height: 3rem;
+}
+
+body {
+  background-color: #fdfffc !important;
+}
+
+#header {
+  background-color: #D5C58A;
+  background-image: linear-gradient(50deg, #D5C58A, #f1ebd1);
+}
+
+#hamburger {
+  background: none !important;
+}
+
+#aboutme {
+  background-image: linear-gradient(50deg, #D5C58A, #f1ebd1);
+}
+
+#resumecont {
+  background-image: url(./logo\ pattern\ transparent.png);
+}
+
+#contact {
+  background-image: linear-gradient(50deg, #D5C58A, #f1ebd1);
+  padding: 10px;
+  margin: 40px;
+  border-radius: .75rem;
+}
+
+#custom-cards {
+  box-shadow: 0px 0px 20px rgb(114, 114, 114);
+  border-radius: .75rem;
+}
+
+.card-cover {
+  border: none !important;
+}
+
+.h-100.p-5 {
+  padding: 1.5rem !important;
+}
+
+#button {
+  background-image: linear-gradient(50deg, #D5C58A, #8A9AD5);
+  border: none;
+}
+
+#projbutton {
+  border-color: #f0f1ff;
+}
+
+#button:hover {
+  color: black; /* Text color on hover */
+}
+
+* {
+  font-family: "Raleway", sans-serif;
+}
+
+#ralewaybold {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  color: #8A9AD5 !important;
+}
+
+#exampleInputMessage1 {
+  height: 100px;
+}
+
+#topic {
+  font-size: 50%;
+}
+
+#projecttitle {
+  font-size: 80%;
+}
+
+.fw-bold {
+  font-weight: 500 !important;
+}
+
+/*infinite text banner*/
+.wrapper {
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.marquee {
+  white-space: nowrap;
+  overflow: hidden;
+  display: inline-block;
+  animation: marquee 30s linear infinite;
+  color: #fdfffc;
+  background-color: #8A9AD5;
+  padding-bottom: 0%;
+  font-size: 15px;
+}
+
+.marquee p {
+  display: inline-block;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+
+/*2nd text wrap banner*/
+.wrapper2 {
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.marquee2 {
+  white-space: nowrap;
+  overflow: hidden;
+  display: inline-block;
+  animation: marquee 30s linear infinite;
+  color: #fdfffc;
+  padding-bottom: 0%;
+}
+
+.marquee2 p {
+  display: inline-block;
+}
+
+@keyframes marquee2 {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+
+.fs-4 {
+  font-size: xx-large;
+}
+
+.mx-auto.lead {
+  margin-left: 10px;
+  margin-right: 10px;
+}
